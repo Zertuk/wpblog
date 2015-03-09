@@ -1,0 +1,209 @@
+/*
+Theme Name: Zertuks Blog Theme
+Theme URI: http://blog.zertukis.com
+Author: Justin Forcier
+Author URI: http://zertukis.com
+Description: This theme is a simple blog
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/*GLOBAL */
+body {
+	background-color: #F1F1F1;
+}
+
+.wrap {
+	width: 100%;
+	margin-top: 10%;
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+	color: white;
+}
+
+h1 {
+	padding-top: 90px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	font-size: 4em;
+	color: #F1F1F1;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	font-size: 3em;
+	color: #F1F1F1;
+
+}
+
+h4 {
+	text-align: center;
+}
+
+/* HEADER */
+
+header {
+	width: 100%;
+	height: 350px;
+	background-color: #F7705E;
+	text-align: center;
+	margin-top: -100px;
+}
+
+.fill {
+	background-color: #AEC6CF;
+	color: #F1F1F1;
+	border-radius: 5px;
+}
+
+.links {
+	width: 100%;
+	text-align: center;
+}
+
+.links a {
+	display: inline-block;
+	width: 20%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #AEC6CF;
+	padding: 5px;
+	color: #F1F1F1;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5em;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.links a:hover {
+	background-color:  #F7705E;
+}
+
+/* POSTS */
+
+.previousButton {
+	float: left;
+	color: black;
+	margin-top: 50px;
+}
+
+.nextButton {
+	float: right;
+	color: black;
+	margin-top: 50px;
+}
+
+/* HOME */
+
+img {
+	max-width: 100%;
+}
+
+
+/* FOOTER */
+
+footer {
+	margin-top: 10%;
+	height: 350px;
+	background-color: #F7705E;
+}
+
+footer a {
+	display: block;
+	color: #F1F1F1;
+}
+
+footer a:hover {
+	color: #AEC6CF;
+}
+
+.leftLinks {
+	float: left;
+	padding-top: 50px;
+	font-size: 1.25em;
+	width: 13%;
+}
+
+.rightLinks {
+	padding-top: 50px;
+	float: right;
+	width: 13%;
+}
+
+.rightLinks a {
+	display: inline;
+	font-size: 1.25em;
+}
+
+.game {
+	width: 50%;
+	height: 300px;
+	margin-top: 25px;
+	background-color: #f1f1f1;
+	display: inline-block;
+}
+
+/* ARCHIVE */
+
+.archivePosts {
+	text-align: center;
+	margin-top: 5%;
+	font-size: 1.5em;
+}
+
+.archivePosts a {
+	color: black;
+}
+
+.archivePosts a:hover {
+	color: #F7705E;
+}
+
+.archivePosts li {
+	list-style-type: none;
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	.links a {
+		display: inline-block;
+		width: 20%;
+		font-size: 1.05em;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	footer {
+		height: 250px;
+	}
+}
+
+@media (max-width: 800px) {
+	.leftLinks {
+		float: left;
+		padding-top: 50px;
+		font-size: 1.25em;
+		width: 10%;
+	}
+
+	.rightLinks {
+		padding-top: 50px;
+		float: right;
+		width: 8%;
+	}
+
+}
+
+
+
